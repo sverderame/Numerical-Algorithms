@@ -1,1 +1,2 @@
-* LU Factorization 
+# LU Factorization
+In numerical analysis and linear algebra, LU factorization factors a matrix as the product of a lower triangular matrix *L* and an upper triangular matrix *U*. This algorithm uses partial pivoting (row permutations only) and is designed specifically to be the matrix form of Naive Gauss Elimination. This algorithm uses the law of *PA=LU*, where *P* is a permutaion matrix which reorders the rows of *A* (the origional matrix). This algorithm is only designed for square matrices, but is numerically stable in practice.
