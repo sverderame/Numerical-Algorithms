@@ -12,3 +12,6 @@ This algorithm is fast, easy to program, and finds all solutions.
 
 ### Disadvantages:
 This method can easily be unstable and mistakes can easily be made in programming. In terms of this particular algorithm, it only solves the system of equations of a **square** matrix, which is a large disadvantage as that only covers a small variety of systems of equations. 
+
+#### Other Useful Information:
+This algorithm was reported giving an incorrect output for a "hard matrix". Thus, this algorithm is limited in how large of a matrix it can solve. There are probably also roundoff errors that cause major issues when teh algorithm is working with small numbers in the given matrix.
