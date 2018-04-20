@@ -11,4 +11,4 @@ Memory is not a problem which this algorithm because it overwrites the entries o
 This algorithm is fast, easy to program, and finds all solutions. 
 
 ### Disadvantages:
-This method can easily be unstable and mistakes can easily be made in programming. In terms of this particular algorithm, it only solves the system of equations of a **square** matrix. 
+This method can easily be unstable and mistakes can easily be made in programming. In terms of this particular algorithm, it only solves the system of equations of a **square** matrix, which is a large disadvantage as that only covers a small variety of systems of equations. 
