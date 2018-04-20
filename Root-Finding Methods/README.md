@@ -15,4 +15,11 @@ uses the fact that in the initial interval [x1,x2], the function changes sign on
 * The output *ea* is the approximate relative error as a percentage.
 * *maxiter* tells the user how many iterations were performed before the algorithm gave an answer within the desired relative error or within the maximum number of iterations.
 
+### Advantages:
+This method is always convergent, thus the algorithms should always output an answer. 
 
+### Disadvantages:
+There are times this method can converge very slowly.
+
+#### Other Useful Information:
+The algorithm has a couple of bugs. For instance, the approximate error appears to be too low because of an incorrect match with the *maxiter* output, yet it is correct when studied closer.
